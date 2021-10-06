@@ -17,3 +17,16 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+
+
+
+
+
+
+import math
+num2 = (1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12)
+num = input("Enter a number")
+num = int(num)
+for i in num2:
+    print(i * num)
