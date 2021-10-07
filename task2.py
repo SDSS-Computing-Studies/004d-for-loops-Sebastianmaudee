@@ -1,4 +1,4 @@
-#! python3
+    #! python3
 """
 ###### Task 2
 Ask the user to enter a name.
@@ -23,3 +23,13 @@ That name is on the list
 """
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+
+nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+name = input("enter a name")
+for i in nameList:
+    if i == name:
+        print("That name is on the list")
+        break
+else:
+    if i != name:
+        print("that name is not on the list")  
