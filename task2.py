@@ -24,7 +24,6 @@ That name is on the list
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
-nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 name = input("enter a name")
 for i in nameList:
     if i == name:
@@ -32,4 +31,4 @@ for i in nameList:
         break
 else:
     if i != name:
-        print("that name is not on the list")  
+        print("That name is not on the list")  
